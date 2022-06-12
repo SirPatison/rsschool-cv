@@ -48,9 +48,10 @@ body {font-family: 'Oswald', sans-serif;
       }
       .footer {background-color: #6b7e9d;
       color: aliceblue;
-    text-align: center;
     display: flex;
     flex-direction: row;
+    text-align: justify;
+    justify-content: center;
 }
       .links {text-decoration: none;
         color: aliceblue;}
