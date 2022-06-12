@@ -54,9 +54,13 @@ body {font-family: 'Oswald', sans-serif;
 }
       .links {text-decoration: none;
         color: aliceblue;}
-        div {border: 6px solid #554b68;
+        .photoname {margin-left: auto;
+            margin-right: auto;}
+        .information {border: 6px solid #554b68;
             background-color: #40578480;
         display: flex;
-    flex-wrap: wrap;}
+    flex-wrap: wrap;
+ margin-left: auto;
+ margin-right: auto;}
     .linkco {color: #000000;
     text-decoration: none;}
