@@ -10,6 +10,7 @@ body {font-family: 'Oswald', sans-serif;
     display: flex;
     flex-direction: column;
     }
+    img {border: 3px solid #4f4c87;}
     .nav-list {
         display: flex;
         justify-content: flex-end;
@@ -19,6 +20,9 @@ body {font-family: 'Oswald', sans-serif;
       .nav-link {
         padding: 0 20px;
         line-height: 50px;
+        color: aliceblue;
+        text-decoration: none;
+        font-size: 20px;
       }
       .main-container {
         display: flex;
@@ -26,12 +30,13 @@ body {font-family: 'Oswald', sans-serif;
       }
       .section {
         width: 50%;
+        font-size: 20px;
       }
       .section-title {
-        font-size: 20px;
+        font-size: 30px;
         font-weight: 400;
         text-transform: uppercase;
-        letter-spacing: 5px;
+        letter-spacing: 3px;
         color: #756691;
       }
       @media (max-width: 768px) {
@@ -39,3 +44,13 @@ body {font-family: 'Oswald', sans-serif;
           width: 100%;
         }
       }
+      .link {
+        text-decoration: none;
+        color: #829985;
+        transition: color 0.5s;
+      }
+      
+      .link:hover {
+        color: #5d7260;
+      }
+      .footer {background-color: #6b7e9d;}
