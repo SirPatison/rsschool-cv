@@ -1,7 +1,7 @@
 html {
     scroll-behavior: smooth; 
   }
-  .header {background-color: #6b7e9d;}
+  .header {background-color: #030027;}
 body {font-family: 'Oswald', sans-serif;
     font-size: 18px;
     font-weight: 400;
@@ -28,11 +28,11 @@ body {font-family: 'Oswald', sans-serif;
       .main-container {
         display: flex;
         flex-wrap: wrap;
+        background-color: #F2F3D9;
       }
       .section {
         width: 50%;
         font-size: 20px;
-        border-bottom: 1px solid #554b68;
       }
       .section-title {
         font-size: 30px;
@@ -46,7 +46,7 @@ body {font-family: 'Oswald', sans-serif;
           width: 100%;
         }
       }
-      .footer {background-color: #6b7e9d;
+      .footer {background-color: #151E3F;
       color: aliceblue;
     display: flex;
     flex-direction: row;
@@ -58,10 +58,13 @@ body {font-family: 'Oswald', sans-serif;
         .photoname {margin-left: auto;
             margin-right: auto;}
         .information {border: 6px solid #554b68;
-            background-color: #40578480;
+            background-color: #C16E70;
         display: flex;
     flex-wrap: wrap;
  margin-left: auto;
  margin-right: auto;}
     .linkco {color: #000000;
     text-decoration: none;}
+    .section2 {display: flex;
+    flex-direction: column;
+  margin-right: auto;}
