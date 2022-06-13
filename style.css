@@ -11,7 +11,7 @@ body {font-family: 'Oswald', sans-serif;
     flex-direction: column;
     }
     .picture { border-radius: 300px;
-        border: 3px solid #ffffff;}
+        border: 3px solid #F2F3D9;}
     .nav-list {
         display: flex;
         justify-content: flex-end;
@@ -68,3 +68,5 @@ body {font-family: 'Oswald', sans-serif;
     .section2 {display: flex;
     flex-direction: column;
   margin-right: auto;}
+  .miniborder {background-color: #DC9E82;
+  border: 6px solid #030027;}
